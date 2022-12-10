@@ -101,9 +101,10 @@ class Villain(Swordsman_3):
     def crit(self):
         print(f'Crit dm: {self ** 2}')
 
-antihero = Villain('Akihiko Kayaba', 'Hitkliv\n', 'liberator\n', '15000', 'это игра, но в нее невозможно играть')
+antihero = Villain('Akihiko Kayaba', 'Hitkliv\n', 'liberator\n', '16000', 'это игра, но в нее невозможно играть')
 
 print(antihero)
 antihero.gen_x()
 Villain.crit(hero_2.damage)
+
 
